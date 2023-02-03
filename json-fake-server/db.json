@@ -1,0 +1,39 @@
+{
+    "WorkoutCollection": [
+      {
+        "id": "1",
+        "title": "dummy1",
+        "note": "test note",
+        "calBurnPM":"10",
+        "categName":"C1"
+      },
+      {
+        "id": "2",
+        "title": "dummy2",
+        "note": "test note",
+        "calBurnPM":"10",
+        "categName":"C2"
+      },
+      {
+        "id": "3",
+        "title": "dummy3",
+        "note": "test note",
+        "calBurnPM":"10",
+        "categName":"C3"
+      },
+      {
+        "id": "4",
+        "title": "dummy4",
+        "note": "test note",
+        "calBurnPM":"10",
+        "categName":"C4"
+      },
+      {
+        "id": "5",
+        "title": "dummy5",
+        "note": "test note",
+        "calBurnPM":"10",
+        "categName":"C5"
+      }
+    ]
+  }
