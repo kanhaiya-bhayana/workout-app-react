@@ -13,7 +13,7 @@ export default function WorkoutDetails() {
 
     const addWorkoutDetails = () => {
         console.log('add employee..' , title,note,calBurnPM,categName)
-        fetch('http://localhost:8000/WorkoutCollection', {
+        fetch('http://localhost:8000/workouts', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -29,13 +29,7 @@ export default function WorkoutDetails() {
         });
     }
 
-    // let messageAlert = ''
-    // if(message){
-    //     messageAlert= (<div class="alert alert-success" role="alert">
-    //     {message}
-    //     </div>)
-    // }
-    
+   
     return (
         <>
        {message && (<div className="alert alert-success" role="alert">
